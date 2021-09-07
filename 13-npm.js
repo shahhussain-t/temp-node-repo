@@ -15,9 +15,16 @@
 // npm init (step by step, press enter to skip)
 // npm init -y(everyting deafualt)
 
+// npx is a package manager tool come with npm 5.2
+// 4.17.20
+// major chnage second on is backward compatble and third one is a patch fixed bags
+
+
 const _=require('lodash')
 
 const items=[1,[2,[3,[4]]]]
 
 const newItems=_.flattenDeep(items);
 console.log(newItems);
+console.log("hello world");
+console.log("wowwwwww wh ds sdfsat is that")
